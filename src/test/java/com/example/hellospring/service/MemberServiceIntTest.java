@@ -17,8 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @Transactional
 class MemberServiceIntTest {
 
-    @Autowired
-    MemberService memberService;
+    @Autowired MemberService memberService;
     @Autowired MemberRepository memberRepository;
 
     @Test
